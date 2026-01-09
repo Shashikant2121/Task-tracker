@@ -1,67 +1,43 @@
-# 📝 Task Tracker Web Application (MERN Stack)
+#  Task Tracker Web Application (MERN Stack)
 
-A full-stack Task Tracker application built using the MERN stack.  
-This project demonstrates CRUD operations, REST API design, MongoDB integration, and frontend–backend communication.
+A full-stack Task Tracker built with the **MERN stack**.  
+Demonstrates CRUD operations, REST API design, MongoDB integration, and frontend–backend communication.
 
 ---
 
-## 🚀 Objective
+## Features
 
-Build a Task Tracker Web Application to demonstrate understanding of **MERN stack fundamentals**, API design, database handling, and state management.
+- Create, view, update, and delete tasks  
+- Task status: Pending / Completed  
+- Task priority & due date  
+- Responsive UI with form validation  
+- Environment variable support for secure API URLs  
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-- React.js (Vite)
-- Tailwind CSS
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB (MongoDB Atlas)
-- Mongoose
-
-### Deployment
-- Frontend: **Vercel**
-- Backend: **Render**
-- Database: **MongoDB Atlas**
+- **Frontend:** React.js (Vite), Tailwind CSS, Axios  
+- **Backend:** Node.js, Express.js, MongoDB Atlas, Mongoose  
+- **Deployment:** Frontend → Vercel | Backend → Render  
 
 ---
 
-## ✨ Features
+## 🔗 Live Links
 
-- Create new tasks
-- View all tasks
-- Update task status (Pending / Completed)
-- Delete tasks
-- Task priority (Low / Medium / High)
-- Due date support
-- Client-side form validation
-- Responsive UI
-- RESTful APIs
-- Environment variable support
+- **Frontend:** [task-tracker-swart-five.vercel.app](https://task-tracker-swart-five.vercel.app)  
+- **Backend API:** [task-tracker-7zeh.onrender.com/api/tasks](https://task-tracker-7zeh.onrender.com/api/tasks)  
+- **GitHub Repo:** [Shashikant2121/Task-tracker](https://github.com/Shashikant2121/Task-tracker)
 
 ---
 
-##
+##  Key Learnings
+
+- MERN stack architecture & API design  
+- Frontend–backend integration  
+- MongoDB schema validation & database handling  
+- Environment variables & deployment workflow  
 
 ---
 
-## 🔌 Backend API Endpoints
-
-| Method | Endpoint            | Description              |
-|------|---------------------|--------------------------|
-| POST | /api/tasks          | Create new task          |
-| GET  | /api/tasks          | Get all tasks            |
-| PUT  | /api/tasks/:id      | Update task status       |
-| DELETE | /api/tasks/:id    | Delete a task            |
-
----
-
-## ⚙️ Environment Variables
-
-Create a `.env` file inside **server** folder:
-
+**This project demonstrates hands-on full-stack development skills and production-ready deployment.**
