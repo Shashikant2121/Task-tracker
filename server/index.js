@@ -13,8 +13,14 @@ mongoose
   .then(() => console.log("mongoDB connected"))
   .catch((err) => console.log(err));
 
-app.use("/api", require("./routes/tastRoutes"));
 
-const PORT = process.env.PORT || 7000;
+app.use("/api/tasks", require("./routes/taskRoutes")); // Corrected file name
 
+
+app.get("/", (req, res) => {
+  res.send("Server is running!");
+});
+
+
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
